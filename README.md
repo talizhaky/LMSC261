@@ -37,3 +37,26 @@ I'm slightly confused to be quite honest.
 - Technology conferences are where primate Dynamics can be fully displayed, we're relationships of power and hierarchy can be established.
 - There were loads of sexual misconduct against women. They started documenting it, and now there are rules and codes of conduct for people to follow.
 - Less than 30% of people in Computing are women, the number of women in Computing has fallen since the 80s
+## **3 - Why Are Programmers So Intense About Languages?**
+- As of April 15, 20__ the most used computer languages were: Java, C, C++, Objective-C, and C#. Followed by: JavaScript, PHP, and Python.
+### *3.1 - The Beauty of the Standard Library*
+- A language is a software for making software.
+- The standard library is a set of premade software that you can reuse and reapply.
+  - Python comes with tons of preexisting code organized into “modules” that you can reuse.
+### *3.2 - What Do Different Languages Do?*
+- Different codes structure data in different ways and address the components of the computer in different ways.
+### *3.3 - The Importance of C*
+- C is a big deal
+- It’s the principle development language of the UNIX operating system
+- C is computing like Latin is to Renaissance Academics
+### *3.4 - The Corporate Object Revolution*
+- Object-oriented programming is a filing system for code
+- Object-oriented programming gave programmers a great way to name things
+- Java is an object-oriented language, influenced by C++, that runs on a virtual machine (just like Smalltalk).
+- Objective-C, per its name, jammed C and Smalltalk together with no apologies.
+- C# (pronounced “C sharp”) is based on C and influenced by Java, but it was created by Microsoft for use in its .NET framework.
+- C++ is an object-oriented version of C, although its roots are more in Simula.
+### *3.5 - Look How Big and Weird Things Get With Just Python*
+- Python has a reputation as a “glue language”
+  - You can take code from other lower-level languages (like C, C++, Fortran 77) and write “wrapper functions”.
+    - Embed the older, faster code in the newer slower, but easier-to-use system (Python)
