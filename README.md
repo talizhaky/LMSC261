@@ -60,3 +60,38 @@ I'm slightly confused to be quite honest.
 - Python has a reputation as a “glue language”
   - You can take code from other lower-level languages (like C, C++, Fortran 77) and write “wrapper functions”.
     - Embed the older, faster code in the newer slower, but easier-to-use system (Python)
+## **4 - Why Are Coders Angry?**
+### *4.1 - The Legend of the 10x Programmer*
+- For a truly gifted programmer, writing code is a side effect of thought.
+### *4.2 - The Thing About Real Artists Is That They...*
+- As a class, programmers are easily bored, love novelty, and are obsessed with various forms of productivity enhancement.
+### *4.3 - We Still Need to Choose…*
+### *4.4 - Why Are There So Many Languages?*
+- “Most programming languages are partly a way of expressing things in terms of other things and partly a basic set of given things” - P.J. Landin, 1966
+## **5 - The Time You Attended the E-mail Address Validation Meeting**
+### *5.1 - What Is the Relationship Between Code and Data?*
+- Data management is the problem that programming is supposed to solve.
+### *5.2 Where Does Data Live?*
+- Amazon, Google, Yahoo!, Netflix, Spotify all have huge, powerful databases.
+- The relational database uses a language called SQL (Structured Query Language)
+  - Relational databases represent the world using tables, which have columns and rows.
+  - IDs are important in databases
+### *5.3 - The Language of White Collars*
+- Java is object-oriented, but looks a lot like C and C++
+- Java came with a lot of code already there
+- It automatically generated documentation
+### *5.4 - Briefly on the Huge Subject of Microsoft*
+- Whatever is discussed in this issue, Microsoft offers at least one of it. Statically typed, scripting, data-driven, functional—name your ambiguous adjective, and Microsoft will sell something that delivers that to you, and you can write Windows code in it and live a Windows life.
+### *5.5 - Liquid Infrastructure*
+- Java is designed for big corporate projects and has the infrastructure to support them.
+- People realize that if they didn't like the Java language, they could write other languages and run it on the Java virtual machine (JVM)
+- Things are fluid in the world of programming.
+  - Languages are liquid infrastructure
+### *5.6 - Off the Shelf*
+### *5.7 - What About Javascript?*
+- JavaScript relationship with Java is tenuous. The strongest bond is their name.
+- Google made their own browser “Chrome” with a super-fast JavaScript engine called V8
+- NPM: Node Package Manager. Software that helped you install packages.
+### *5.8 - What’s the Absolute Minimum I Must know About PHP?*
+- PHP: Personal Home Page/Forms Interpreter.
+  - It powers Etsy, Wikipedia, and Facebook.
