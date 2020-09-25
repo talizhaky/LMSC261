@@ -95,3 +95,52 @@ I'm slightly confused to be quite honest.
 ### *5.8 - What’s the Absolute Minimum I Must know About PHP?*
 - PHP: Personal Home Page/Forms Interpreter.
   - It powers Etsy, Wikipedia, and Facebook.
+## **6 - How are Apps Made?**
+- XCode: a program by Apple that is an IDE (Integrated Development Environment).
+  - It’s how the company writes software and how anyone who wants to write software for Mac or iPhone does it.
+  - One component is the iOS SDK (software development kit).
+    - Use this to make iPhone/iPad apps.
+  - You can compile everything with one command and up pops your software for testing.
+- A lot of software to make software is free. It stimulates the development of even more software.
+### *6.1 - The Framework: Wilder, Younger Cousin of the Software Development Kit*
+- Frameworks lock you in a way of thinking.
+  - Some people feel that frameworks make things too easy.
+- Premature optimization: overthinking your code before you know what the real problems will be.
+### *6.2 - What is Debugging?*
+- Programming *is* debugging
+- Stackoverflow is when a request goes too hard, for example, calling itself so many times that the stack, which is a finite resource, fills up and can’t take it anymore.
+### *6.3 - Nothing is Built*
+### *6.4 - How Does Testing Work?*
+- Test-driven design is when programmers don’t start programming until they’ve written the tests that the code they hope to write must pass.
+### *6.5 - And Now for Something Beautiful*
+- Version control tracks every change, every test you have done.
+- GitHub is great.
+- Programmers hardly talk about code. They talk about data, interesting approaches, and constantly about deployment.
+- Programmers want to ship and move on to the next problem ASAP so there are policies they follow to speed up the process:
+  1. All programming work must happen in a branch.
+  2. When work is done, we will merge it back into the main branch; and 
+    - Run tests;
+    - Then “push” the code over to GitHub.
+  3. At which point an automated service will run; and
+  4. A service running on each of the 50 computers will “check out” the code; and
+  5. Install it, overwriting the old version;
+  6. Then stop the computer’s Web servers;
+  7. Then restart them, so the new code can load and get to work.
+## **7 - The Triumph of Middle Management**
+### *7.1 - How Do You Pick a Programming Language?*
+- Beware of arguments related to programming speed.
+- You need to figure out for yourself what kind of team you have, what kind of frameworks you like using, where people can be most productive, so they will stick around through the completion of the project.
+- Clean code is idiomatic, as brief as possible, obvious even if it’s not heavily documented
+- “A computer language is not just a way of getting a computer to perform operations … It is a novel formal medium for expressing ideas about methodology. Thus, programs must be written for people to read, and only incidentally for machines to execute.” - *Structure and Interpretation of Computer Programs.*
+### *7.2 - Welcome to the Scrum*
+### *7.3 - Managing Programmers*
+- Agile methodology calls for regular coordination among programmers, providing a set of rituals and norms they can follow to make their programs work with the programs of others.
+- The Agile Manifesto reads as follows:
+  - Individuals and interactions over processes and tools
+  - Working software over comprehensive documentation
+  - Customer collaboration over contract negotiation
+  - Responding to change over following a plan
+### *7.4 - “We Are Going to Ship”*
+- They will do their standups. And after the standups, they will go off and work in the integrated development environments and write their server-side JavaScript and their client-side JavaScript. Then they will run some tests and check their code into the source code repository, and the continuous integration server will perform tests and check
+### *7.5 - Should You Learn Code?*
+Programming as a career can lead to a rewarding, solidly middle-class existence. If you are inclined and enjoy the work, it’s a good way to spend time, and if you work for and with good people, it can be very fun
