@@ -119,8 +119,8 @@ I'm slightly confused to be quite honest.
 - Programmers want to ship and move on to the next problem ASAP so there are policies they follow to speed up the process:
   1. All programming work must happen in a branch.
   2. When work is done, we will merge it back into the main branch; and 
-    - Run tests;
-    - Then “push” the code over to GitHub.
+      - Run tests;
+      - Then “push” the code over to GitHub.
   3. At which point an automated service will run; and
   4. A service running on each of the 50 computers will “check out” the code; and
   5. Install it, overwriting the old version;
@@ -143,4 +143,4 @@ I'm slightly confused to be quite honest.
 ### *7.4 - “We Are Going to Ship”*
 - They will do their standups. And after the standups, they will go off and work in the integrated development environments and write their server-side JavaScript and their client-side JavaScript. Then they will run some tests and check their code into the source code repository, and the continuous integration server will perform tests and check
 ### *7.5 - Should You Learn Code?*
-Programming as a career can lead to a rewarding, solidly middle-class existence. If you are inclined and enjoy the work, it’s a good way to spend time, and if you work for and with good people, it can be very fun
+- Programming as a career can lead to a rewarding, solidly middle-class existence. If you are inclined and enjoy the work, it’s a good way to spend time, and if you work for and with good people, it can be very fun
