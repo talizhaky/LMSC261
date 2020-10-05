@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-  for (int i = 0; i < 10 ; i++)
+    //prints 8 lines
+  for (int i = 0; i < 8 ; i++)
   {
-      for (int j = 0 ; j < 10 ; j++)
+      for (int j = 0 ; j < 1++ ; j++)
       {
       printf("#");
       }
