@@ -1,7 +1,5 @@
-
-
-let number = 1;
-while (number <= 100) {
+//loops until number = 100
+for (let number = 1; number < 100; number+1) {
 
 //prints FizzBuzz if divisible by both 3 and 5
   if (number%3 == 0 && number%5 == 0) {
