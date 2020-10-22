@@ -1,4 +1,4 @@
-#Chessboard Assignment
+# Chessboard Assignment
 
 It was all fun and games until I wrote out the whole code, sure it would work, and then **bam**. Nothing. It was long, unorganized, and I knew that starting over would make my life a whole lot easier. So that's what I did. I started googling different JavaScript functions and found [this](https://www.w3schools.com/JS/js_functions.asp) website. I found the "repeat" function and then went on another website to learn how to use [repeat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat).
 
