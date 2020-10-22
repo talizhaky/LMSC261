@@ -3,7 +3,7 @@
 for (number=1; number <= size; number = number + 1) {
 
 //defines size of chessboard
-  var size = 11;
+  var size = 8;
   const bird = " #"
   const frog = "# "
 
