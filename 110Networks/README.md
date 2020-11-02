@@ -1,4 +1,4 @@
-#Creating a Website
+# Creating a Website
 
 Jason, Sam, Sophie, and I created a band called "Atom's Apple". You can check out our website [here](https://talizhaky.github.io/)
 
