@@ -8,26 +8,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> def y():
 	print("|         |         |")
 
-	
->>> def print_square():
-	x()
-	for in in range (4):
-		
-SyntaxError: invalid syntax
->>> def print_square():
-	for i in range (2):
-		x()
-	for i in range (4):
-		y()
 
-		
->>> print_square()
-+ - - - - + - - - - +
-+ - - - - + - - - - +
-|         |         |
-|         |         |
-|         |         |
-|         |         |
 >>> def print_square():
 	for i in range (2):
 		x()
@@ -36,11 +17,6 @@ SyntaxError: invalid syntax
 	x()
 
 	
->>> print_squares()
-Traceback (most recent call last):
-  File "<pyshell#19>", line 1, in <module>
-    print_squares()
-NameError: name 'print_squares' is not defined
 >>> print_square()
 + - - - - + - - - - +
 |         |         |
