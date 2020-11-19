@@ -5,7 +5,7 @@ the higher the score the warmer someone tends to dress
 """
 
 score = 0
-# question 1: do you tend to run warm or cold?
+# question 1: do you tend to run warm or cold? ***be more specific
 question1 = input("Do you tend to run warm or cold? ")
 
 while question1 != "cold" and question1 != "warm":
