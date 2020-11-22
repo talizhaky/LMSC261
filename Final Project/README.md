@@ -4,13 +4,18 @@ It's 5am and you're running late to work. It's still pitch black outside so it's
 
 Well, what if there was a personalized program that tells you exactly what YOU should wear based on the weather? Soon there will be because that's my Final Project. This program will be useful for anyone who lives where there is weather.
 
+---
+
 **Resources**
+
 I'm going to create this Weather Program in Python and call upon *many* resources to help. Here are some that I've used so far:
 - Originally I used [Dress for the Weather](https://projects.raspberrypi.org/en/projects/dress-for-the-weather) instructions from Raspberrypi but then found it to be outdated.
 - [PyOWM](https://pyowm.readthedocs.io/en/latest/): a client Python wrapper library for OpenWeatherMap web APIs. It allows quick and easy consumption of OWM data from Python applications via a simple object model and in a human-friendly fashion.
 - [Code Recipes](https://pyowm.readthedocs.io/en/latest/v3/code-recipes.html#library_init): shows how to use PyOWM and make it your own.
 - [This Github](https://github.com/csparpa/pyowm) that describes how to use PyOWM
 - [OpenWeatherMap](openweathermap.org): This open source weather map gives you an API for free to link to your Program
+
+---
 
 **Proposed Timeline:**
 | Mission                                                                          | Date to be completed |
@@ -21,7 +26,10 @@ I'm going to create this Weather Program in Python and call upon *many* resource
 | Create a mock-up of how the website or app *would* look if pursued               | Dec. 13              |
 | If time, create website for weather program                                      | Dec. 14              |
 
+---
+
 **How I Should Be Assessed:**
+
 I should be assessed on the following criteria:
 1. User interface, how easy is it for someone to use my program
 2. How well does the program work (any errors? misunderstandings?)
