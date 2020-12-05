@@ -5,47 +5,87 @@ the higher the score the warmer someone tends to dress
 """
 
 score = 0
-# question 1: do you tend to run warm or cold? ***be more specific
-question1 = input("Do you tend to run warm or cold? ")
 
-while question1 != "cold" and question1 != "warm":
-    print("Please answer either 'warm' or 'cold.")
-    question1 = input("Are you from a warm climate or cold climate? Please answer either 'warm' or 'cold': ")
-if question1 == "warm":
+question1 = input("Do you tend to run "
+                  "A) warm "
+                  "B) cold? ")
+while question1 != "A" and question1 != "B":
+    print("Please answer either 'A' or 'B.")
+    question1 = input("Do you tend to run "
+                      "A) warm "
+                      "B) cold? ")
+if question1 == "A":
     score = score + 1
-elif question1 == "cold":
+elif question1 == "B":
     score = score + 2
 
-
-# question 2: Warm or Cold Climate? Warm = dress lighter. Cold = dress heavier
-question2 = input("Are you from a warm climate or cold climate? Please answer either 'warm' or 'cold': ")
-
-while question2 != "cold" and question2 != "warm":
-    print("Please answer either 'warm' or 'cold.")
-    question2 = input("Are you from a warm climate or cold climate? Please answer either 'warm' or 'cold': ")
-if question2 == "warm":
+question2 = input("Are you from a "
+                  "A) colder climate "
+                  "B) warmer climate? ")
+while question2 != "A" and question2 != "B":
+    print("Please answer either 'A' or 'B.")
+    question2 = input("Are you from a "
+                      "A) colder climate "
+                      "B) warmer climate? ")
+if question2 == "A":
     score = score + 1
-elif question2 == "cold":
+elif question2 == "B":
     score = score + 2
 
-# question 3: it's 60 degrees outside and sunny. What are they wearing?
-question3 = input("It's 60 degrees out and sunny. Are you wearing A) a heavy sweater B) a light jacket or C) a tshirt?"
-                  "Please answer either 'A' 'B' or 'C': ")
-
+question3 = input("It's 60 degrees out and sunny. Are you wearing "
+                  "A) a t-shirt "
+                  "B) a light jacket "
+                  "C) a heavy sweater? "
+                  )
 while question3 != "A" and question3 != "B" and question3 != "C":
     print("Please answer either 'A' 'B' or 'C'.")
-    question1 = input("It's 60 degrees out and sunny. Are you wearing A) a heavy sweater B) a light jacket or C) a tshirt? ")
-if question3 == "C":
+    question3 = input("It's 60 degrees out and sunny. Are you wearing "
+                      "A) a t-shirt "
+                      "B) a light jacket "
+                      "C) a heavy sweater? ")
+if question3 == "A":
     score = score + 1
 elif question3 == "B":
     score = score + 2
-elif question3 == "A":
+elif question3 == "C":
     score = score + 3
 
-#quiz results
-if score == 3:
-    print("Shorts in the winter? That has your name all over it.")
-elif score == 7:
-    print("There are never enough layers for you.")
-else:
-    print("You're in the middle.")
+question4 = input("At what temperature do you start wearing shorts instead of pants? "
+                  "A) 60F "
+                  "B) 70F "
+                  "C) 80F ")
+while question4 != "A" and question4 != "B" and question4 != "C":
+    print("Please answer either 'A' 'B' or 'C'.")
+    question4 = input("At what temperature do you start wearing shorts instead of pants? "
+                      "A) 60F "
+                      "B) 70F "
+                      "C) 80F ")
+if question4 == "A":
+    score = score + 1
+elif question4 == "B":
+    score = score + 2
+elif question4 == "C":
+    score = score + 3
+
+question5 = input("It’s pouring rain out, what do you do? "
+                  "A) Nothing, I don't mind rain "
+                  "B) A hood will do just fine "
+                  "C) Bring an umbrella "
+                  "D) I'm not going outside today ")
+while question5 != "A" and question5 != "B" and question5 != "C" and question5 != "D":
+    print("Please answer either 'A' 'B' or 'C'.")
+    question5 = input("It’s pouring rain out, what do you do? "
+                      "A) Nothing, I don't mind rain "
+                      "B) A hood will do just fine "
+                      "C) Bring an umbrella "
+                      "D) I'm not going outside today ")
+if question5 == "A":
+    score = score + 1
+elif question5 == "B":
+    score = score + 2
+elif question5 == "C":
+    score = score + 3
+elif question5 == "D":
+    score = score + 4
+
+print(score)

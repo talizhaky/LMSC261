@@ -4,29 +4,23 @@ Import PyOWM and modules into program
 
 from pyowm import OWM
 owm = OWM('b4422cd2b94310f148af2aa9a9649490')
-mgr = owm.weather_manager()
-reg = owm.city_id_registry()
-
-city = input("City Name: ")
-
-country = input("Country Abbreviation: ")
-
-list_of_locations = reg.locations_for('moscow', country='RU')
-moscow = list_of_locations[0]
-lat = moscow.lat
-lon = moscow.lon
+weather_mgr = owm.weather_manager()
 
 
-#takes the coordinates and finds the weather
+observation = weather_mgr.weather_at_place('Boston,US')  # the observation object is a box containing a weather object
+weather = observation.weather
+weather.status
+weather.detailed_status
 
-one_call = mgr.one_call(lat=moscow.lat, lon= moscow.lon)
-temp = one_call.forecast_daily[0].temperature('fahrenheit').get('feels_like_morn', None)
 
-print(f"It is {temp} degrees Fahrenheit in {city}, {country}.")
+weather = weather_mgr.weather_at_place('Boston,US').weather
+temp_dict_fahrenheit = weather.temperature('fahrenheit')
+temp_dict_fahrenheit['temp_min']
+temp_dict_fahrenheit['temp_max']
 
-if temp <= 40:
-    print("You better be wearing layers. Do NOT forget a hat, scarf, and gloves!")
-elif 40 < temp <= 70:
-    print("I'd bring a sweatshirt wherever you go.")
-elif temp > 70:
-    print("SWIMSUIT WEATHER")
+
+
+
+print(f"Today there will be a low of", temp_dict_fahrenheit['temp_min'], "F, with a high of", temp_dict_fahrenheit['temp_max'], "F.")
+print(f"Right now there are", weather.detailed_status, "and feels like", temp_dict_fahrenheit['feels_like'], "F")
+
