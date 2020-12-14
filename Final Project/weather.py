@@ -16,12 +16,12 @@ the higher the score the warmer someone tends to dress
 
 score = 0
 
-question1 = input("Do you tend to run "
+question1 = input("Do you tend to be "
                   "A) warm "
                   "B) cold? ")
 while question1 != "A" and question1 != "B":
-    print("Please answer either 'A' or 'B.")
-    question1 = input("Do you tend to run "
+    print("Please answer either 'A' or 'B (case sensitive)")
+    question1 = input("Do you tend to be "
                       "A) warm "
                       "B) cold? ")
 if question1 == "A":
@@ -33,7 +33,7 @@ question2 = input("Are you from a "
                   "A) colder climate "
                   "B) warmer climate? ")
 while question2 != "A" and question2 != "B":
-    print("Please answer either 'A' or 'B.")
+    print("Please answer either 'A' or 'B (case sensitive).")
     question2 = input("Are you from a "
                       "A) colder climate "
                       "B) warmer climate? ")
@@ -48,7 +48,7 @@ question3 = input("It's 60 degrees out and sunny. Are you wearing "
                   "C) a heavy sweater? "
                   )
 while question3 != "A" and question3 != "B" and question3 != "C":
-    print("Please answer either 'A' 'B' or 'C'.")
+    print("Please answer either 'A' 'B' or 'C'(case sensitive).")
     question3 = input("It's 60 degrees out and sunny. Are you wearing "
                       "A) a t-shirt "
                       "B) a light jacket "
@@ -65,7 +65,7 @@ question4 = input("At what temperature do you start wearing shorts instead of pa
                   "B) 70F "
                   "C) 80F ")
 while question4 != "A" and question4 != "B" and question4 != "C":
-    print("Please answer either 'A' 'B' or 'C'.")
+    print("Please answer either 'A' 'B' or 'C' (case sensitive).")
     question4 = input("At what temperature do you start wearing shorts instead of pants? "
                       "A) 60F "
                       "B) 70F "
@@ -83,7 +83,7 @@ question5 = input("It’s pouring rain out, what do you do? "
                   "C) Bring an umbrella "
                   "D) I'm not going outside today ")
 while question5 != "A" and question5 != "B" and question5 != "C" and question5 != "D":
-    print("Please answer either 'A' 'B' or 'C'.")
+    print("Please answer either 'A' 'B' or 'C' (case sensitive).")
     question5 = input("It’s pouring rain out, what do you do? "
                       "A) Nothing, I don't mind rain "
                       "B) A hood will do just fine "
