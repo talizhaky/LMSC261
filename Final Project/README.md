@@ -32,6 +32,8 @@ Well, what if there was a personalized program that tells you exactly what YOU s
 
 I could see this program being used in an app and even as a widget on a phone. When people are getting ready for the day they are more likely to check the weather on a smartphone than the computer. Also, this app could eventually *partner* with clothing companies.
 
-*Hey, today's going to be raining, you should wear a jacket* //
-*Oh, you don't have a jacket?* //
+*Hey, today's going to be raining, you should wear a jacket*
+
+*Oh, you don't have a jacket?*
+
 *Well __here's__ a great store to buy one online!*
