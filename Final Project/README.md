@@ -25,3 +25,13 @@ Well, what if there was a personalized program that tells you exactly what YOU s
 - After figuring out how to use OpenWeatherMap, I ran into a serious problem... I could only grab the weather from Moscow, Russia! I could *not* figure out what was wrong and then sidelined this project for a week to do further investigating. Eventually (and I mean *eventually*), I found that instead of writing "seattle,WA" I had to write "seattle,US". I felt so dumb, but hey at least I figured it out!
 - Creating questions that are specific enough to capture if a person tends to dress warmer or not was difficult. Also, making sure that the questions were universally understood was important. Once I came up with a set of questions that I was comfortable with I was good to do.
 - I couldn't figure out how to "call" the weather.questionnaire into the weather program so I ended up copying and pasting the questionnaire in the official weather program.
+
+---
+
+## __The *Future*__
+
+I could see this program being used in an app and even as a widget on a phone. When people are getting ready for the day they are more likely to check the weather on a smartphone than the computer. Also, this app could eventually *partner* with clothing companies.
+
+*Hey, today's going to be raining, you should wear a jacket*
+*Oh, you don't have a jacket?*
+*Well __here's__ a great store to buy one online!*
