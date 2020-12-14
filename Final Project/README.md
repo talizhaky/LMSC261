@@ -1,4 +1,4 @@
-# Weather and Outfit Finder!
+# Weather the Weather!
 *How did I do this?*
 
 ## **Original Proposal:**
@@ -37,3 +37,7 @@ I could see this program being used in an app and even as a widget on a phone. W
 *Oh, you don't have a jacket?*
 
 *Well __here's__ a great store to buy one online!*
+
+Here's an example of what the app User Interface could look like:
+
+![alt text](https://github.com/talizhaky/LMSC261/blob/master/Final%20Project/Weather_the_Weather_App.png)
